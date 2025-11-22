@@ -52,6 +52,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 const port = process.env.PORT ? Number(process.env.PORT) : 3000;
-server.listen(port, () => {
-  process.stdout.write(`Server listening at http://localhost:${port}/\n`);
+
+server.listen(port, "0.0.0.0", () => {
+  console.log(`Server running on port ${port}`);
 });
