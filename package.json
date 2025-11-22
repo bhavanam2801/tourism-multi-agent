@@ -1,0 +1,10 @@
+{
+  "name": "tourism-multi-agent",
+  "version": "1.0.0",
+  "description": "Multi-agent tourism system with Nominatim, Open-Meteo, Overpass",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:server": "node src/server.js"
+  }
+}
